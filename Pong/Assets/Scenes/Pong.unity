@@ -370,7 +370,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 66034791}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -517,6 +517,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69d638ca410a4f44f9d501a11af10fa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  randomXMaximum: 5
+  randomYMaximum: 5
+  randomXMinimum: 1
+  randomYMinimum: 1
+  rigidBody: {fileID: 66034792}
 --- !u!1 &413227440
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,7 +611,6 @@ GameObject:
   m_Component:
   - component: {fileID: 868968885}
   - component: {fileID: 868968884}
-  - component: {fileID: 868968887}
   - component: {fileID: 868968886}
   m_Layer: 0
   m_Name: Bottom Border
@@ -731,33 +735,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!50 &868968887
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868968883}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!50 &1128430193 stripped
 Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 4547858761773636867, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
@@ -881,7 +858,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1857252114}
   - component: {fileID: 1857252113}
-  - component: {fileID: 1857252116}
   - component: {fileID: 1857252115}
   m_Layer: 0
   m_Name: Top Border
@@ -1006,33 +982,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!50 &1857252116
-Rigidbody2D:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1857252112}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!1 &1867784651
 GameObject:
   m_ObjectHideFlags: 0

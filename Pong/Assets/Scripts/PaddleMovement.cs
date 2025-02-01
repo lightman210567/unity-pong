@@ -1,5 +1,6 @@
 using System;
 using System.Numerics;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 //using UnityEngine.InputSystem;
@@ -40,6 +41,10 @@ public class PaddleMovement : MonoBehaviour
         if (downAction.IsPressed())
         {
             rigidBody.linearVelocityY = -moveSpeed;
+        }
+        if (upAction.WasReleasedThisFrame() || downAction.WasReleasedThisFrame())
+        {
+            rigidBody.linearVelocityY = 0;
         }
     }
 }

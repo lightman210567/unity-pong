@@ -13,6 +13,8 @@ public class PaddleMovement : MonoBehaviour
     InputAction downAction;
     public float moveSpeed;
     public Rigidbody2D rigidBody;
+    public float maximumY;
+    public float minimumY;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -34,13 +36,21 @@ public class PaddleMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        float currentPositionY = rigidBody.position.y;
+
         if (upAction.IsPressed())
         {
-            rigidBody.linearVelocityY = moveSpeed;
+            if (currentPositionY <= maximumY)
+            {
+                rigidBody.linearVelocityY = moveSpeed;
+            }
         }
         if (downAction.IsPressed())
         {
-            rigidBody.linearVelocityY = -moveSpeed;
+            if (currentPositionY >= minimumY)
+            {
+                rigidBody.linearVelocityY = -moveSpeed;
+            }
         }
         if (upAction.WasReleasedThisFrame() || downAction.WasReleasedThisFrame())
         {

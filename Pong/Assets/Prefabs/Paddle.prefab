@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1224035695950445902}
   - component: {fileID: 6549204093674133547}
+  - component: {fileID: 6132220962979153498}
   m_Layer: 0
   m_Name: Paddle
   m_TagString: Untagged
@@ -87,3 +88,34 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6132220962979153498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798756002904350500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10d56ce1697be074da963c29a3ef0020, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: 0
+  upAction:
+    m_Name: Up
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 0bd1d07d-eb66-4765-ac7d-68f19b4f3a7b
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  downAction:
+    m_Name: Down
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: c06f0cb7-6b68-4f47-b73c-0682a54106b0
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0

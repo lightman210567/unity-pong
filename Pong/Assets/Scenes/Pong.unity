@@ -366,6 +366,37 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1128430193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128430189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10d56ce1697be074da963c29a3ef0020, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: 0
+  upAction:
+    m_Name: Up
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 9e692698-478a-4516-9bf2-4edae5a53ece
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  downAction:
+    m_Name: Down
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 6dda89bb-29b0-4d75-aef2-3099f3f6dbdb
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!1 &1412577556
 GameObject:
   m_ObjectHideFlags: 0
@@ -893,6 +924,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1798756002904350500, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1128430190}
+    - targetCorrespondingSourceObject: {fileID: 1798756002904350500, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1128430193}
   m_SourcePrefab: {fileID: 100100000, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
 --- !u!1001 &8745338720333435155
 PrefabInstance:

@@ -1,3 +1,4 @@
+using System;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -14,8 +15,8 @@ public class BallMovement : MonoBehaviour
     // A function to give the ball a random velocity
     private void RandomVelocity()
     {
-        float randomX = Random.Range(randomXMinimum, randomXMaximum);
-        float randomY = Random.Range(randomYMinimum, randomYMaximum);
+        float randomX = UnityEngine.Random.Range(randomXMinimum, randomXMaximum);
+        float randomY = UnityEngine.Random.Range(randomYMinimum, randomYMaximum);
 
         rigidBody.linearVelocityX = randomX;
         rigidBody.linearVelocityY = randomY;

@@ -519,8 +519,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   randomXMaximum: 5
   randomYMaximum: 5
-  randomXMinimum: 1
-  randomYMinimum: 1
+  randomXMinimum: -5
+  randomYMinimum: -5
   rigidBody: {fileID: 66034792}
 --- !u!1 &413227440
 GameObject:
@@ -699,7 +699,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f722399a54839de409545fde87e76cf8, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -820,7 +820,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_TargetDisplay: 0
 --- !u!224 &1412577560
 RectTransform:
@@ -946,7 +946,7 @@ BoxCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: f722399a54839de409545fde87e76cf8, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

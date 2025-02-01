@@ -2,54 +2,6 @@
     "name": "InputSystem_Actions",
     "maps": [
         {
-            "name": "Player 1",
-            "id": "df70fa95-8a34-4494-b137-73ab6b9c7d37",
-            "actions": [
-                {
-                    "name": "Up1",
-                    "type": "Button",
-                    "id": "93c0aa45-cafb-4940-8fef-9308a840c693",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Down1",
-                    "type": "Button",
-                    "id": "ef4615b2-bc7a-407b-8cbc-5f1d3bdf6e13",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "db406aaa-d7a9-4700-a72d-f0a7fc4a4453",
-                    "path": "<Keyboard>/w",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "Up1",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "a470b716-e595-48db-826e-1058aeaeb4fc",
-                    "path": "<Keyboard>/s",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "Down1",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
-        },
-        {
             "name": "UI",
             "id": "272f6d14-89ba-496f-b7ff-215263d3219f",
             "actions": [
@@ -560,54 +512,6 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "TrackedDeviceOrientation",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "Player 2",
-            "id": "365716e3-e373-49f2-96cf-5901dae25d18",
-            "actions": [
-                {
-                    "name": "Up2",
-                    "type": "Button",
-                    "id": "ed86e5cf-f202-49c8-9081-6e8dde5c2bbc",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Down2",
-                    "type": "Button",
-                    "id": "55aaa7bb-3976-415f-bac7-05832427a043",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "49f3c45f-ee51-4ff8-ad6d-ac8c8ec7c52d",
-                    "path": "<Keyboard>/upArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "Up2",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "3f03eed3-9ddf-4167-9b4c-501267c7ef0e",
-                    "path": "<Keyboard>/downArrow",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard&Mouse",
-                    "action": "Down2",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

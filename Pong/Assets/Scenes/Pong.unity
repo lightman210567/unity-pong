@@ -381,21 +381,37 @@ MonoBehaviour:
   player: 0
   upAction:
     m_Name: Up
-    m_Type: 0
-    m_ExpectedControlType: 
+    m_Type: 1
+    m_ExpectedControlType: Button
     m_Id: 9e692698-478a-4516-9bf2-4edae5a53ece
     m_Processors: 
     m_Interactions: 
-    m_SingletonActionBindings: []
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 1c9ae196-969f-4f64-bf35-2ffb226ec4fd
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Up
+      m_Flags: 0
     m_Flags: 0
   downAction:
     m_Name: Down
-    m_Type: 0
-    m_ExpectedControlType: 
+    m_Type: 1
+    m_ExpectedControlType: Button
     m_Id: 6dda89bb-29b0-4d75-aef2-3099f3f6dbdb
     m_Processors: 
     m_Interactions: 
-    m_SingletonActionBindings: []
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: f37360d8-e64b-4e34-b7ac-12f3dd23353c
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Down
+      m_Flags: 0
     m_Flags: 0
 --- !u!1 &1412577556
 GameObject:
@@ -719,6 +735,54 @@ PrefabInstance:
     - target: {fileID: 1798756002904350500, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
       propertyPath: m_Name
       value: Right Paddle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6132220962979153498, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
+      propertyPath: upAction.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6132220962979153498, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
+      propertyPath: downAction.m_Type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6132220962979153498, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
+      propertyPath: upAction.m_ExpectedControlType
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 6132220962979153498, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
+      propertyPath: downAction.m_ExpectedControlType
+      value: Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 6132220962979153498, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
+      propertyPath: upAction.m_SingletonActionBindings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6132220962979153498, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
+      propertyPath: downAction.m_SingletonActionBindings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6132220962979153498, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
+      propertyPath: upAction.m_SingletonActionBindings.Array.data[0].m_Id
+      value: 400210e6-b7cf-4d78-995a-3ea377721ec5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6132220962979153498, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
+      propertyPath: downAction.m_SingletonActionBindings.Array.data[0].m_Id
+      value: 4f7eea9a-09f7-45fe-aaab-c8bfb13dadeb
+      objectReference: {fileID: 0}
+    - target: {fileID: 6132220962979153498, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
+      propertyPath: upAction.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <Keyboard>/upArrow
+      objectReference: {fileID: 0}
+    - target: {fileID: 6132220962979153498, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
+      propertyPath: downAction.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <Keyboard>/downArrow
+      objectReference: {fileID: 0}
+    - target: {fileID: 6132220962979153498, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
+      propertyPath: upAction.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Up
+      objectReference: {fileID: 0}
+    - target: {fileID: 6132220962979153498, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
+      propertyPath: downAction.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Down
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -1,4 +1,5 @@
 using System;
+using System.Numerics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 //using UnityEngine.InputSystem;
@@ -9,6 +10,8 @@ public class PaddleMovement : MonoBehaviour
     public int player;
     InputAction upAction;
     InputAction downAction;
+    public float moveSpeed;
+    public Rigidbody2D rigidBody;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -30,14 +33,13 @@ public class PaddleMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Console.Write("Frame");
         if (upAction.IsPressed())
         {
-            throw new NotImplementedException();
+            rigidBody.linearVelocityY = moveSpeed;
         }
         if (downAction.IsPressed())
         {
-            throw new NotImplementedException();
+            rigidBody.linearVelocityY = -moveSpeed;
         }
     }
 }

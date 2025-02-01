@@ -516,6 +516,102 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Player 1",
+            "id": "020bdff6-9b0b-46d7-bcfb-08b61781dfd7",
+            "actions": [
+                {
+                    "name": "Up1",
+                    "type": "Button",
+                    "id": "0ae316a1-1709-42b6-b927-f2fb9d4b01f0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Down1",
+                    "type": "Button",
+                    "id": "cc1f17bc-d07a-40df-9ec6-e65d1d4a3764",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e6c58272-f59c-4dba-ae43-daf23441198b",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Up1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b9720634-8318-4d5c-9ccd-aab382d5fa87",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Down1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Player 2",
+            "id": "0cdeb756-68d2-4eea-93f1-7c51bc6d034b",
+            "actions": [
+                {
+                    "name": "Up2",
+                    "type": "Button",
+                    "id": "925e597d-e145-4dbf-af46-655c2bbe9f82",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Down2",
+                    "type": "Button",
+                    "id": "205aab7f-db7b-43b3-99fe-b4e81d15ad2c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "93df11b3-0915-44df-8515-7f9335de0fb4",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Up2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "95f93c41-59db-4353-bf8e-17dd15e494b6",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Down2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [

@@ -378,41 +378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10d56ce1697be074da963c29a3ef0020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: 0
-  upAction:
-    m_Name: Up
-    m_Type: 1
-    m_ExpectedControlType: Button
-    m_Id: 9e692698-478a-4516-9bf2-4edae5a53ece
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: 1c9ae196-969f-4f64-bf35-2ffb226ec4fd
-      m_Path: <Keyboard>/w
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Up
-      m_Flags: 0
-    m_Flags: 0
-  downAction:
-    m_Name: Down
-    m_Type: 1
-    m_ExpectedControlType: Button
-    m_Id: 6dda89bb-29b0-4d75-aef2-3099f3f6dbdb
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: f37360d8-e64b-4e34-b7ac-12f3dd23353c
-      m_Path: <Keyboard>/s
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Down
-      m_Flags: 0
-    m_Flags: 0
+  player: 1
 --- !u!1 &1412577556
 GameObject:
   m_ObjectHideFlags: 0
@@ -735,6 +701,10 @@ PrefabInstance:
     - target: {fileID: 1798756002904350500, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
       propertyPath: m_Name
       value: Right Paddle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6132220962979153498, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
+      propertyPath: player
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6132220962979153498, guid: a1b797f60239a0f4caf83c67d470560c, type: 3}
       propertyPath: upAction.m_Type
